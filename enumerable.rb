@@ -21,6 +21,7 @@ module Enumerable
       index += 1
       i += 1
     end
+    self
   end
 
   # my_select method
