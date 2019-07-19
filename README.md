@@ -31,5 +31,5 @@ rspec
 Repl.it [Preview](https://repl.it/@ponmuthuselvam/enumerableruby)
 
 ## Author
-[@imhtapm](https://github.com/imhtapm)
-[@MouhaDiouf](https://github.com/MouhaDiouf)
+- [@imhtapm](https://github.com/imhtapm)
+- [@MouhaDiouf](https://github.com/MouhaDiouf)
