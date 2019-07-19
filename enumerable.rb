@@ -49,9 +49,9 @@ module Enumerable
 
   def my_none?
     my_each do |el|
-      return false unless yield(el)
+      return true unless yield(el)
     end
-    true
+    false
   end
 
   # count method
@@ -81,8 +81,8 @@ module Enumerable
   # my_inject
 
   def my_inject(element = nil)
-    total = element || self[0]
-    (1...length).each do |i|
+    total = element || 0
+    (0...length).each do |i|
       total = yield(total, self[i])
     end
     total
