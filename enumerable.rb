@@ -95,4 +95,3 @@ def multiply_els(arr)
     a
   end
 end
-
